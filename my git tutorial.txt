@@ -1,0 +1,19 @@
+gitBash commands:
+
+git --version
+git config --global user.name "w3schools-test"
+git config --global user.email "test@w3schools.com"
+mkdir myproject
+cd myproject
+git init 
+Initialized empty Git repository in /Users/user/myproject/.git/
+ls
+git status 
+git add index.html  OR git add --all  //Git Staging Environment 
+git commit -m "First release of Hello World!"   //e are ready move from stage to commit
+git log
+git remote add origin https://github.com/w3schools-test/hello-world.git
+git push --set-upstream origin master
+git pull origin   //Git Pull from GitHub - pull: remote to local in team working
+git commit -a -m "Updated index.html. Resized image"
+git push origin
